@@ -1,4 +1,4 @@
-<tnz framecount="762" version="71.0">
+<tnz framecount="766" version="71.0">
   <generator>
     "OpenToonz 1.4"
   </generator>
@@ -506,33 +506,41 @@
         </path>
         
       </soundLevel>
+      <level id='19'>
+        bichito_sombra 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/bichito_sombra.pli"
+        </path>
+        
+      </level>
       
     </levels>
     <folder name="Cast" type="default">
       <levels>
-        <level id='4'/><level id='1'/><level id='3'/><level id='2'/><level id='5'/><level id='9'/><level id='11'/><level id='12'/><level id='13'/><level id='14'/><level id='15'/><level id='16'/><level id='17'/>
+        <level id='1'/><level id='3'/><level id='4'/><level id='5'/><level id='9'/><level id='2'/><level id='11'/><level id='12'/><level id='13'/><level id='14'/><level id='15'/><level id='16'/><level id='17'/><level id='19'/>
       </levels>
       </folder>
     <folder name="Audio">
       <levels>
-        <soundLevel id='6'/><soundLevel id='7'/><soundLevel id='8'/><soundLevel id='10'/><soundLevel id='18'/>
+        <soundLevel id='8'/><soundLevel id='6'/><soundLevel id='7'/><soundLevel id='10'/><soundLevel id='18'/>
       </levels>
       </folder>
     </levelSet>
   <xsheet>
     <columns>
-      <levelColumn id='19'>
+      <levelColumn id='20'>
         
         <status>
           0 
         </status>
         <cells>
           <cell>
-            0 710 <level id='9'/>"-"0 
+            0 762 <level id='9'/>"-"0 
           </cell>
           </cells>
         <fx>
-          <Toonz_columnFx id='20'>
+          <Toonz_columnFx id='21'>
             
             <params>
               </params>
@@ -559,18 +567,56 @@
         </fx>
         
       </levelColumn>
-      <levelColumn id='21'>
+      <levelColumn id='22'>
         
         <status>
           0 
         </status>
         <cells>
           <cell>
-            0 377 <level id='1'/>0001 0 
+            0 131 <level id='19'/>0001 0 
+          </cell>
+          <cell>
+            488 274 <level id='19'/>0001 0 
           </cell>
           </cells>
         <fx>
-          <Toonz_columnFx id='22'>
+          <Toonz_columnFx id='23'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='24'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 762 <level id='1'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='25'>
             
             <params>
               </params>
@@ -597,7 +643,7 @@
         </fx>
         
       </levelColumn>
-      <levelColumn id='23'>
+      <levelColumn id='26'>
         
         <status>
           0 
@@ -631,11 +677,35 @@
             127 10 <level id='4'/>0009 0 
           </cell>
           <cell>
-            137 241 <level id='4'/>0008 0 
+            137 160 <level id='4'/>0008 0 
+          </cell>
+          <cell>
+            297 16 <level id='4'/>0010 0 
+          </cell>
+          <cell>
+            313 65 <level id='4'/>0011 0 
+          </cell>
+          <cell>
+            378 109 <level id='4'/>0012 0 
+          </cell>
+          <cell>
+            487 6 <level id='4'/>0014 0 
+          </cell>
+          <cell>
+            493 11 <level id='4'/>0013 0 
+          </cell>
+          <cell>
+            504 39 <level id='4'/>0012 0 
+          </cell>
+          <cell>
+            543 2 <level id='4'/>0013 -1 
+          </cell>
+          <cell>
+            545 217 <level id='4'/>0012 0 
           </cell>
           </cells>
         <fx>
-          <Toonz_columnFx id='24'>
+          <Toonz_columnFx id='27'>
             
             <params>
               </params>
@@ -662,7 +732,7 @@
         </fx>
         
       </levelColumn>
-      <levelColumn id='25'>
+      <levelColumn id='28'>
         
         <status>
           0 
@@ -681,7 +751,13 @@
             95 3 <level id='5'/>0004 0 
           </cell>
           <cell>
-            98 12 <level id='5'/>0005 0 
+            98 4 <level id='5'/>0005 0 
+          </cell>
+          <cell>
+            102 6 <level id='5'/>0006 0 
+          </cell>
+          <cell>
+            108 2 <level id='5'/>0005 0 
           </cell>
           <cell>
             110 3 <level id='5'/>0004 0 
@@ -690,14 +766,506 @@
             113 122 <level id='5'/>0003 0 
           </cell>
           <cell>
-            235 2 <level id='5'/>0005 -2 
+            235 4 <level id='5'/>0006 0 
           </cell>
           <cell>
-            237 473 <level id='5'/>0003 0 
+            239 5 <level id='5'/>0005 0 
+          </cell>
+          <cell>
+            244 3 <level id='5'/>0006 0 
+          </cell>
+          <cell>
+            247 3 <level id='5'/>0004 0 
+          </cell>
+          <cell>
+            250 2 <level id='5'/>0003 0 
+          </cell>
+          <cell>
+            252 2 <level id='5'/>0004 0 
+          </cell>
+          <cell>
+            254 3 <level id='5'/>0005 0 
+          </cell>
+          <cell>
+            257 2 <level id='5'/>0003 0 
+          </cell>
+          <cell>
+            259 5 <level id='5'/>0004 0 
+          </cell>
+          <cell>
+            264 4 <level id='5'/>0005 0 
+          </cell>
+          <cell>
+            268 3 <level id='5'/>0006 0 
+          </cell>
+          <cell>
+            271 3 <level id='5'/>0004 0 
+          </cell>
+          <cell>
+            274 2 <level id='5'/>0003 0 
+          </cell>
+          <cell>
+            276 2 <level id='5'/>0004 0 
+          </cell>
+          <cell>
+            278 3 <level id='5'/>0005 0 
+          </cell>
+          <cell>
+            281 2 <level id='5'/>0003 0 
+          </cell>
+          <cell>
+            283 5 <level id='5'/>0004 0 
+          </cell>
+          <cell>
+            288 4 <level id='5'/>0005 0 
+          </cell>
+          <cell>
+            292 3 <level id='5'/>0006 0 
+          </cell>
+          <cell>
+            295 3 <level id='5'/>0004 0 
+          </cell>
+          <cell>
+            298 2 <level id='5'/>0003 0 
+          </cell>
+          <cell>
+            300 2 <level id='5'/>0004 0 
+          </cell>
+          <cell>
+            302 3 <level id='5'/>0005 0 
+          </cell>
+          <cell>
+            305 2 <level id='5'/>0003 0 
+          </cell>
+          <cell>
+            307 3 <level id='5'/>0004 0 
+          </cell>
+          <cell>
+            310 5 <level id='5'/>0005 0 
+          </cell>
+          <cell>
+            315 3 <level id='5'/>0006 0 
+          </cell>
+          <cell>
+            318 3 <level id='5'/>0004 0 
+          </cell>
+          <cell>
+            321 2 <level id='5'/>0003 0 
+          </cell>
+          <cell>
+            323 2 <level id='5'/>0004 0 
+          </cell>
+          <cell>
+            325 3 <level id='5'/>0005 0 
+          </cell>
+          <cell>
+            328 2 <level id='5'/>0003 0 
+          </cell>
+          <cell>
+            330 5 <level id='5'/>0004 0 
+          </cell>
+          <cell>
+            335 4 <level id='5'/>0005 0 
+          </cell>
+          <cell>
+            339 3 <level id='5'/>0006 0 
+          </cell>
+          <cell>
+            342 3 <level id='5'/>0004 0 
+          </cell>
+          <cell>
+            345 2 <level id='5'/>0003 0 
+          </cell>
+          <cell>
+            347 2 <level id='5'/>0004 0 
+          </cell>
+          <cell>
+            349 3 <level id='5'/>0005 0 
+          </cell>
+          <cell>
+            352 2 <level id='5'/>0003 0 
+          </cell>
+          <cell>
+            354 5 <level id='5'/>0004 0 
+          </cell>
+          <cell>
+            359 4 <level id='5'/>0005 0 
+          </cell>
+          <cell>
+            363 3 <level id='5'/>0006 0 
+          </cell>
+          <cell>
+            366 3 <level id='5'/>0004 0 
+          </cell>
+          <cell>
+            369 2 <level id='5'/>0003 0 
+          </cell>
+          <cell>
+            371 2 <level id='5'/>0004 0 
+          </cell>
+          <cell>
+            373 3 <level id='5'/>0005 0 
+          </cell>
+          <cell>
+            376 2 <level id='5'/>0003 0 
+          </cell>
+          <cell>
+            378 5 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            383 4 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            387 3 <level id='5'/>0010 0 
+          </cell>
+          <cell>
+            390 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            393 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            395 2 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            397 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            400 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            402 4 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            406 20 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            426 5 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            431 4 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            435 3 <level id='5'/>0010 0 
+          </cell>
+          <cell>
+            438 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            441 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            443 2 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            445 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            448 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            450 4 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            454 5 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            459 4 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            463 3 <level id='5'/>0010 0 
+          </cell>
+          <cell>
+            466 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            469 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            471 2 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            473 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            476 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            478 5 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            483 4 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            487 6 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            493 11 <level id='5'/>0011 0 
+          </cell>
+          <cell>
+            504 7 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            511 3 <level id='5'/>0010 0 
+          </cell>
+          <cell>
+            514 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            517 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            519 2 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            521 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            524 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            526 5 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            531 4 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            535 3 <level id='5'/>0010 0 
+          </cell>
+          <cell>
+            538 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            541 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            543 2 <level id='5'/>0011 -3 
+          </cell>
+          <cell>
+            545 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            548 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            550 5 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            555 4 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            559 3 <level id='5'/>0010 0 
+          </cell>
+          <cell>
+            562 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            565 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            567 2 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            569 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            572 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            574 5 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            579 4 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            583 3 <level id='5'/>0010 0 
+          </cell>
+          <cell>
+            586 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            589 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            591 2 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            593 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            596 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            598 5 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            603 4 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            607 3 <level id='5'/>0010 0 
+          </cell>
+          <cell>
+            610 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            613 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            615 2 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            617 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            620 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            622 5 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            627 4 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            631 3 <level id='5'/>0010 0 
+          </cell>
+          <cell>
+            634 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            637 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            639 2 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            641 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            644 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            646 5 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            651 4 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            655 3 <level id='5'/>0010 0 
+          </cell>
+          <cell>
+            658 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            661 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            663 2 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            665 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            668 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            670 5 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            675 4 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            679 3 <level id='5'/>0010 0 
+          </cell>
+          <cell>
+            682 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            685 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            687 2 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            689 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            692 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            694 5 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            699 4 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            703 3 <level id='5'/>0010 0 
+          </cell>
+          <cell>
+            706 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            709 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            711 2 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            713 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            716 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            718 5 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            723 4 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            727 3 <level id='5'/>0010 0 
+          </cell>
+          <cell>
+            730 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            733 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            735 2 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            737 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            740 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            742 5 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            747 4 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            751 3 <level id='5'/>0010 0 
+          </cell>
+          <cell>
+            754 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            757 2 <level id='5'/>0007 0 
+          </cell>
+          <cell>
+            759 2 <level id='5'/>0008 0 
+          </cell>
+          <cell>
+            761 3 <level id='5'/>0009 0 
+          </cell>
+          <cell>
+            764 2 <level id='5'/>0007 0 
           </cell>
           </cells>
         <fx>
-          <Toonz_columnFx id='26'>
+          <Toonz_columnFx id='29'>
             
             <params>
               </params>
@@ -724,14 +1292,14 @@
         </fx>
         
       </levelColumn>
-      <soundColumn id='27'>
+      <soundColumn id='30'>
         0.4 1 
         <SoundCells>
           0 0 70 <soundLevel id='7'/>
         </SoundCells>
         0 
       </soundColumn>
-      <soundColumn id='28'>
+      <soundColumn id='31'>
         0.4 3 
         <SoundCells>
           0 0 13 <soundLevel id='8'/>
@@ -744,14 +1312,14 @@
         </SoundCells>
         0 
       </soundColumn>
-      <soundColumn id='29'>
+      <soundColumn id='32'>
         0.4 1 
         <SoundCells>
           0 0 126 <soundLevel id='18'/>
         </SoundCells>
         0 
       </soundColumn>
-      <levelColumn id='30'>
+      <levelColumn id='33'>
         
         <status>
           0 
@@ -765,7 +1333,7 @@
           </cell>
           </cells>
         <fx>
-          <Toonz_columnFx id='31'>
+          <Toonz_columnFx id='34'>
             
             <params>
               </params>
@@ -792,7 +1360,7 @@
         </fx>
         
       </levelColumn>
-      <levelColumn id='32'>
+      <levelColumn id='35'>
         
         <status>
           0 
@@ -814,11 +1382,11 @@
             373 15 <level id='12'/>0005 0 
           </cell>
           <cell>
-            388 291 <level id='12'/>0003 0 
+            388 378 <level id='12'/>0003 0 
           </cell>
           </cells>
         <fx>
-          <Toonz_columnFx id='33'>
+          <Toonz_columnFx id='36'>
             
             <params>
               </params>
@@ -845,7 +1413,7 @@
         </fx>
         
       </levelColumn>
-      <levelColumn id='34'>
+      <levelColumn id='37'>
         
         <status>
           0 
@@ -1032,152 +1600,200 @@
             480 5 <level id='13'/>0005 0 
           </cell>
           <cell>
-            485 4 <level id='13'/>0002 0 
+            485 2 <level id='13'/>0002 0 
           </cell>
           <cell>
-            489 4 <level id='13'/>0003 0 
+            487 24 <level id='13'/>0003 0 
           </cell>
           <cell>
-            493 3 <level id='13'/>0004 0 
+            511 2 <level id='13'/>0004 1 
           </cell>
           <cell>
-            496 5 <level id='13'/>0005 0 
+            513 2 <level id='13'/>0005 5 
           </cell>
           <cell>
-            501 4 <level id='13'/>0002 0 
+            515 2 <level id='13'/>0010 0 
           </cell>
           <cell>
-            505 4 <level id='13'/>0003 0 
+            517 5 <level id='13'/>0009 0 
           </cell>
           <cell>
-            509 3 <level id='13'/>0004 0 
+            522 5 <level id='13'/>0008 0 
           </cell>
           <cell>
-            512 5 <level id='13'/>0005 0 
+            527 4 <level id='13'/>0009 0 
           </cell>
           <cell>
-            517 4 <level id='13'/>0002 0 
+            531 4 <level id='13'/>0007 0 
           </cell>
           <cell>
-            521 4 <level id='13'/>0003 0 
+            535 3 <level id='13'/>0010 0 
           </cell>
           <cell>
-            525 3 <level id='13'/>0004 0 
+            538 5 <level id='13'/>0009 0 
           </cell>
           <cell>
-            528 5 <level id='13'/>0005 0 
+            543 5 <level id='13'/>0008 0 
           </cell>
           <cell>
-            533 4 <level id='13'/>0002 0 
+            548 4 <level id='13'/>0009 0 
           </cell>
           <cell>
-            537 4 <level id='13'/>0003 0 
+            552 4 <level id='13'/>0007 0 
           </cell>
           <cell>
-            541 3 <level id='13'/>0004 0 
+            556 3 <level id='13'/>0010 0 
           </cell>
           <cell>
-            544 5 <level id='13'/>0005 0 
+            559 5 <level id='13'/>0009 0 
           </cell>
           <cell>
-            549 4 <level id='13'/>0002 0 
+            564 5 <level id='13'/>0008 0 
           </cell>
           <cell>
-            553 4 <level id='13'/>0003 0 
+            569 4 <level id='13'/>0009 0 
           </cell>
           <cell>
-            557 3 <level id='13'/>0004 0 
+            573 4 <level id='13'/>0007 0 
           </cell>
           <cell>
-            560 5 <level id='13'/>0005 0 
+            577 3 <level id='13'/>0010 0 
           </cell>
           <cell>
-            565 4 <level id='13'/>0002 0 
+            580 5 <level id='13'/>0009 0 
           </cell>
           <cell>
-            569 4 <level id='13'/>0003 0 
+            585 5 <level id='13'/>0008 0 
           </cell>
           <cell>
-            573 3 <level id='13'/>0004 0 
+            590 4 <level id='13'/>0009 0 
           </cell>
           <cell>
-            576 5 <level id='13'/>0005 0 
+            594 4 <level id='13'/>0007 0 
           </cell>
           <cell>
-            581 4 <level id='13'/>0002 0 
+            598 3 <level id='13'/>0010 0 
           </cell>
           <cell>
-            585 4 <level id='13'/>0003 0 
+            601 5 <level id='13'/>0009 0 
           </cell>
           <cell>
-            589 3 <level id='13'/>0004 0 
+            606 5 <level id='13'/>0008 0 
           </cell>
           <cell>
-            592 5 <level id='13'/>0005 0 
+            611 4 <level id='13'/>0009 0 
           </cell>
           <cell>
-            597 4 <level id='13'/>0002 0 
+            615 4 <level id='13'/>0007 0 
           </cell>
           <cell>
-            601 4 <level id='13'/>0003 0 
+            619 3 <level id='13'/>0010 0 
           </cell>
           <cell>
-            605 3 <level id='13'/>0004 0 
+            622 5 <level id='13'/>0009 0 
           </cell>
           <cell>
-            608 5 <level id='13'/>0005 0 
+            627 5 <level id='13'/>0008 0 
           </cell>
           <cell>
-            613 4 <level id='13'/>0002 0 
+            632 4 <level id='13'/>0009 0 
           </cell>
           <cell>
-            617 4 <level id='13'/>0003 0 
+            636 4 <level id='13'/>0007 0 
           </cell>
           <cell>
-            621 3 <level id='13'/>0004 0 
+            640 3 <level id='13'/>0010 0 
           </cell>
           <cell>
-            624 5 <level id='13'/>0005 0 
+            643 5 <level id='13'/>0009 0 
           </cell>
           <cell>
-            629 4 <level id='13'/>0002 0 
+            648 5 <level id='13'/>0008 0 
           </cell>
           <cell>
-            633 4 <level id='13'/>0003 0 
+            653 4 <level id='13'/>0009 0 
           </cell>
           <cell>
-            637 3 <level id='13'/>0004 0 
+            657 4 <level id='13'/>0007 0 
           </cell>
           <cell>
-            640 5 <level id='13'/>0005 0 
+            661 3 <level id='13'/>0010 0 
           </cell>
           <cell>
-            645 4 <level id='13'/>0002 0 
+            664 5 <level id='13'/>0009 0 
           </cell>
           <cell>
-            649 4 <level id='13'/>0003 0 
+            669 5 <level id='13'/>0008 0 
           </cell>
           <cell>
-            653 3 <level id='13'/>0004 0 
+            674 4 <level id='13'/>0009 0 
           </cell>
           <cell>
-            656 5 <level id='13'/>0005 0 
+            678 4 <level id='13'/>0007 0 
           </cell>
           <cell>
-            661 4 <level id='13'/>0002 0 
+            682 3 <level id='13'/>0010 0 
           </cell>
           <cell>
-            665 4 <level id='13'/>0003 0 
+            685 5 <level id='13'/>0009 0 
           </cell>
           <cell>
-            669 3 <level id='13'/>0004 0 
+            690 5 <level id='13'/>0008 0 
           </cell>
           <cell>
-            672 5 <level id='13'/>0005 0 
+            695 4 <level id='13'/>0009 0 
+          </cell>
+          <cell>
+            699 4 <level id='13'/>0007 0 
+          </cell>
+          <cell>
+            703 3 <level id='13'/>0010 0 
+          </cell>
+          <cell>
+            706 5 <level id='13'/>0009 0 
+          </cell>
+          <cell>
+            711 5 <level id='13'/>0008 0 
+          </cell>
+          <cell>
+            716 4 <level id='13'/>0009 0 
+          </cell>
+          <cell>
+            720 4 <level id='13'/>0007 0 
+          </cell>
+          <cell>
+            724 3 <level id='13'/>0010 0 
+          </cell>
+          <cell>
+            727 5 <level id='13'/>0009 0 
+          </cell>
+          <cell>
+            732 5 <level id='13'/>0008 0 
+          </cell>
+          <cell>
+            737 4 <level id='13'/>0009 0 
+          </cell>
+          <cell>
+            741 4 <level id='13'/>0007 0 
+          </cell>
+          <cell>
+            745 3 <level id='13'/>0010 0 
+          </cell>
+          <cell>
+            748 5 <level id='13'/>0009 0 
+          </cell>
+          <cell>
+            753 5 <level id='13'/>0008 0 
+          </cell>
+          <cell>
+            758 4 <level id='13'/>0009 0 
+          </cell>
+          <cell>
+            762 4 <level id='13'/>0007 0 
           </cell>
           </cells>
         <fx>
-          <Toonz_columnFx id='35'>
+          <Toonz_columnFx id='38'>
             
             <params>
               </params>
@@ -1204,7 +1820,7 @@
         </fx>
         
       </levelColumn>
-      <levelColumn id='36'>
+      <levelColumn id='39'>
         
         <status>
           0 
@@ -1247,11 +1863,17 @@
             372 2 <level id='15'/>0010 0 
           </cell>
           <cell>
-            389 121 <level id='15'/>0003 0 
+            389 104 <level id='15'/>0003 0 
+          </cell>
+          <cell>
+            493 21 <level id='15'/>0011 0 
+          </cell>
+          <cell>
+            514 251 <level id='15'/>0030 0 
           </cell>
           </cells>
         <fx>
-          <Toonz_columnFx id='37'>
+          <Toonz_columnFx id='40'>
             
             <params>
               </params>
@@ -1282,7 +1904,7 @@
     </columns>
     <pegbars>
       <splines>
-        <pegbarspline id='38'>
+        <pegbarspline id='41'>
           
           <splineId>
             0 
@@ -1486,6 +2108,176 @@
           </default>
           <keyframes>
             <L>
+              118 0 
+            </L>
+            <L>
+              <prev>
+                -0.0147481 
+              </prev>
+              119 -0.0147481 
+            </L>
+            <L>
+              <prev>
+                -0.00134858 
+              </prev>
+              120 -0.00134858 
+            </L>
+            <L>
+              <prev>
+                -0.00134858 
+              </prev>
+              504 -0.00134858 
+            </L>
+            <L>
+              <prev>
+                -0.853495 
+              </prev>
+              539 -0.853495 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              118 0 
+            </L>
+            <L>
+              <prev>
+                -0.0218535 
+              </prev>
+              119 -0.0218535 
+            </L>
+            <L>
+              <prev>
+                -0.0305714 
+              </prev>
+              120 -0.0305714 
+            </L>
+            <L>
+              <prev>
+                -0.0305714 
+              </prev>
+              504 -0.0305714 
+            </L>
+            <L>
+              <prev>
+                -0.0355533 
+              </prev>
+              539 -0.0355533 
+            </L>
+            </keyframes>
+          </y>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              120 0.706617 
+            </L>
+            <L>
+              <prev>
+                0.540472 
+              </prev>
+              123 0.540472 
+            </L>
+            <L>
+              <prev>
+                0.478372 
+              </prev>
+              125 0.478372 
+            </L>
+            <L>
+              <prev>
+                0.247714 
+              </prev>
+              127 0.247714 
+            </L>
+            <L>
+              <prev>
+                0.0941486 
+              </prev>
+              129 0.0941486 
+            </L>
+            <L>
+              <prev>
+                0.093836 
+              </prev>
+              487 0.093836 
+            </L>
+            <L>
+              <prev>
+                0.0562939 
+              </prev>
+              488 0.0562939 
+            </L>
+            <L>
+              <prev>
+                0.0553453 
+              </prev>
+              489 0.0553453 
+            </L>
+            <L>
+              <prev>
+                0.0606328 
+              </prev>
+              490 0.0606328 
+            </L>
+            <L>
+              <prev>
+                0.066924 
+              </prev>
+              491 0.066924 
+            </L>
+            <L>
+              <prev>
+                0.0790213 
+              </prev>
+              492 0.0790213 
+            </L>
+            <L>
+              <prev>
+                0.0914651 
+              </prev>
+              493 0.0914651 
+            </L>
+            </keyframes>
+          </sc>
+        <nodePos>
+          1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col3">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
               118 0.0581397 
             </L>
             <L>
@@ -1550,33 +2342,33 @@
             </L>
             <L>
               <prev>
-                0.497008 
+                0.509445 
               </prev>
-              129 0.497008 
+              129 0.509445 
             </L>
             <L>
               <prev>
-                0.553214 
+                0.578089 
               </prev>
-              130 0.553214 
+              130 0.578089 
             </L>
             <L>
               <prev>
-                0.611746 
+                0.665031 
               </prev>
-              131 0.611746 
+              131 0.665031 
             </L>
             <L>
               <prev>
-                0.685638 
+                0.782071 
               </prev>
-              132 0.685638 
+              132 0.782071 
             </L>
             <L>
               <prev>
-                0.869676 
+                0.930581 
               </prev>
-              133 0.869676 
+              133 0.930581 
             </L>
             <L>
               <prev>
@@ -1619,6 +2411,114 @@
                 2.59727 
               </prev>
               140 2.59727 
+            </L>
+            <L>
+              <prev>
+                2.59727 
+              </prev>
+              448 2.59727 
+            </L>
+            <L>
+              <prev>
+                2.43028 
+              </prev>
+              452 2.43028 
+            </L>
+            <L>
+              <prev>
+                2.2886 
+              </prev>
+              455 2.2886 
+            </L>
+            <L>
+              <prev>
+                2.19245 
+              </prev>
+              458 2.19245 
+            </L>
+            <L>
+              <prev>
+                2.18233 
+              </prev>
+              460 2.18233 
+            </L>
+            <L>
+              <prev>
+                1.9951 
+              </prev>
+              464 1.9951 
+            </L>
+            <L>
+              <prev>
+                1.82306 
+              </prev>
+              467 1.82306 
+            </L>
+            <L>
+              <prev>
+                1.69655 
+              </prev>
+              471 1.69655 
+            </L>
+            <L>
+              <prev>
+                1.166 
+              </prev>
+              475 1.166 
+            </L>
+            <L>
+              <prev>
+                0.780142 
+              </prev>
+              478 0.780142 
+            </L>
+            <L>
+              <prev>
+                0.378208 
+              </prev>
+              481 0.378208 
+            </L>
+            <L>
+              <prev>
+                -0.0570763 
+              </prev>
+              484 -0.0570763 
+            </L>
+            <L>
+              <prev>
+                -0.492307 
+              </prev>
+              487 -0.492307 
+            </L>
+            <L>
+              <prev>
+                -0.907595 
+              </prev>
+              490 -0.907595 
+            </L>
+            <L>
+              <prev>
+                -1.33929 
+              </prev>
+              493 -1.33929 
+            </L>
+            <L>
+              <prev>
+                -1.33929 
+              </prev>
+              504 -1.33929 
+            </L>
+            <L>
+              <prev>
+                -1.75977 
+              </prev>
+              523 -1.75977 
+            </L>
+            <L>
+              <prev>
+                -2.15689 
+              </prev>
+              539 -2.15689 
             </L>
             </keyframes>
           </x>
@@ -1692,33 +2592,33 @@
             </L>
             <L>
               <prev>
-                2.07081 
+                2.07703 
               </prev>
-              129 2.07081 
+              129 2.07703 
             </L>
             <L>
               <prev>
-                2.31954 
+                2.31643 
               </prev>
-              130 2.31954 
+              130 2.31643 
             </L>
             <L>
               <prev>
-                2.565 
+                2.51594 
               </prev>
-              131 2.565 
+              131 2.51594 
             </L>
             <L>
               <prev>
-                2.82327 
+                2.78267 
               </prev>
-              132 2.82327 
+              132 2.78267 
             </L>
             <L>
               <prev>
-                3.05308 
+                3.04293 
               </prev>
-              133 3.05308 
+              133 3.04293 
             </L>
             <L>
               <prev>
@@ -1762,6 +2662,114 @@
               </prev>
               140 2.8685 
             </L>
+            <L>
+              <prev>
+                2.8685 
+              </prev>
+              448 2.8685 
+            </L>
+            <L>
+              <prev>
+                2.95958 
+              </prev>
+              452 2.95958 
+            </L>
+            <L>
+              <prev>
+                2.93934 
+              </prev>
+              455 2.93934 
+            </L>
+            <L>
+              <prev>
+                2.88874 
+              </prev>
+              458 2.88874 
+            </L>
+            <L>
+              <prev>
+                2.8685 
+              </prev>
+              460 2.8685 
+            </L>
+            <L>
+              <prev>
+                2.91404 
+              </prev>
+              464 2.91404 
+            </L>
+            <L>
+              <prev>
+                2.88874 
+              </prev>
+              467 2.88874 
+            </L>
+            <L>
+              <prev>
+                2.8685 
+              </prev>
+              471 2.8685 
+            </L>
+            <L>
+              <prev>
+                3.07751 
+              </prev>
+              475 3.07751 
+            </L>
+            <L>
+              <prev>
+                2.91673 
+              </prev>
+              478 2.91673 
+            </L>
+            <L>
+              <prev>
+                2.65949 
+              </prev>
+              481 2.65949 
+            </L>
+            <L>
+              <prev>
+                2.30235 
+              </prev>
+              484 2.30235 
+            </L>
+            <L>
+              <prev>
+                1.79059 
+              </prev>
+              487 1.79059 
+            </L>
+            <L>
+              <prev>
+                0.801367 
+              </prev>
+              490 0.801367 
+            </L>
+            <L>
+              <prev>
+                -0.05592 
+              </prev>
+              493 -0.05592 
+            </L>
+            <L>
+              <prev>
+                -0.05592 
+              </prev>
+              504 -0.05592 
+            </L>
+            <L>
+              <prev>
+                -0.0247734 
+              </prev>
+              523 -0.0247734 
+            </L>
+            <L>
+              <prev>
+                -0.05592 
+              </prev>
+              539 -0.05592 
+            </L>
             </keyframes>
           </y>
         <sx>
@@ -1783,8 +2791,8 @@
           24620 25450 
         </nodePos>
         </pegbar>
-      <pegbar id="Col3">
-        <parent handle="B" id="Col2" parentHandle="B">
+      <pegbar id="Col4">
+        <parent handle="B" id="Col3" parentHandle="B">
           </parent>
         <isOpened>
           0 
@@ -1814,8 +2822,8 @@
           24740 25450 
         </nodePos>
         </pegbar>
-      <pegbar id="Col4">
-        <parent handle="B" id="Col2" parentHandle="B">
+      <pegbar id="Col5">
+        <parent handle="B" id="Col3" parentHandle="B">
           </parent>
         <isOpened>
           0 
@@ -1843,37 +2851,6 @@
           </sc>
         <nodePos>
           24740 25400 
-        </nodePos>
-        </pegbar>
-      <pegbar id="Col5">
-        <parent handle="B" id="Table" parentHandle="B">
-          </parent>
-        <isOpened>
-          0 
-        </isOpened>
-        <center>
-          0 0 0 0 
-        </center>
-        <status>
-          0 
-        </status>
-        <sx>
-          <default>
-            1 
-          </default>
-          </sx>
-        <sy>
-          <default>
-            1 
-          </default>
-          </sy>
-        <sc>
-          <default>
-            1 
-          </default>
-          </sc>
-        <nodePos>
-          1.234e+09 5.678e+09 
         </nodePos>
         </pegbar>
       <pegbar id="Col6">
@@ -1939,7 +2916,38 @@
         </nodePos>
         </pegbar>
       <pegbar id="Col8">
-        <parent handle="B" id="Col9" parentHandle="B">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col9">
+        <parent handle="B" id="Col10" parentHandle="B">
           </parent>
         <isOpened>
           0 
@@ -1969,7 +2977,7 @@
           24747 25252.4 
         </nodePos>
         </pegbar>
-      <pegbar id="Col9">
+      <pegbar id="Col10">
         <parent handle="B" id="Table" parentHandle="B">
           </parent>
         <isOpened>
@@ -1982,7 +2990,7 @@
           1 
         </status>
         <splinep>
-          <pegbarspline id='38'/>
+          <pegbarspline id='41'/>
         </splinep>
         <sx>
           <default>
@@ -2160,8 +3168,8 @@
           24620 25350 
         </nodePos>
         </pegbar>
-      <pegbar id="Col10">
-        <parent handle="B" id="Col9" parentHandle="B">
+      <pegbar id="Col11">
+        <parent handle="B" id="Col10" parentHandle="B">
           </parent>
         <isOpened>
           0 
@@ -2191,8 +3199,8 @@
           24740 25350 
         </nodePos>
         </pegbar>
-      <pegbar id="Col11">
-        <parent handle="B" id="Col9" parentHandle="B">
+      <pegbar id="Col12">
+        <parent handle="B" id="Col10" parentHandle="B">
           </parent>
         <isOpened>
           0 
@@ -2229,32 +3237,35 @@
     <fxnodes>
       <terminal>
         <fxnode>
-          <Toonz_columnFx id='24'/>
+          <Toonz_columnFx id='40'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='22'/>
+          <Toonz_columnFx id='38'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='31'/>
+          <Toonz_columnFx id='34'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='33'/>
+          <Toonz_columnFx id='36'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='35'/>
+          <Toonz_columnFx id='27'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='37'/>
+          <Toonz_columnFx id='25'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='20'/>
+          <Toonz_columnFx id='29'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='26'/>
+          <Toonz_columnFx id='23'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='21'/>
         </fxnode>
         </terminal>
       <xsheet>
-        <Toonz_xsheetFx id='39'>
+        <Toonz_xsheetFx id='42'>
           
           <params>
             </params>
@@ -2280,13 +3291,13 @@
         
       </xsheet>
       <output>
-        <Toonz_outputFx id='40'>
+        <Toonz_outputFx id='43'>
           
           <params>
             </params>
           <ports>
             <source>
-              <Toonz_xsheetFx id='39'/>
+              <Toonz_xsheetFx id='42'/>
             </source>
             </ports>
           <dagNodePos>
@@ -2324,6 +3335,8 @@
     "| #7   15 mar. 21   07:49               |"
     "| #8   15 Mar 21   15:19                |"
     "| #9   15 Mar 21   19:00                |"
-    "| #10  15 mar. 21   21:09               |"
+    "| #10  15 mar. 21   21:11               |"
+    "| #11  16 Mar 21   16:39                |"
+    "| #12  16 Mar 21   18:03                |"
   </history>
   </tnz>
