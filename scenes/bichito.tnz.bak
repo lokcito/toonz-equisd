@@ -7,7 +7,7 @@
       169.931 0 
     </hGuides>
     <vGuides>
-      45.2414 38.2222 -0.0822521 -45.6544 
+      -0.0822521 
     </vGuides>
     <cameras>
       <camera>
@@ -124,7 +124,7 @@
         </output>
       <output name="preview">
         <range>
-          0 -1 
+          0 761 
         </range>
         <step>
           1 
@@ -510,12 +510,12 @@
     </levels>
     <folder name="Cast" type="default">
       <levels>
-        <level id='17'/><level id='11'/><level id='12'/><level id='13'/><level id='14'/><level id='15'/><level id='16'/><level id='5'/><level id='9'/><level id='3'/><level id='2'/><level id='1'/><level id='4'/>
+        <level id='4'/><level id='1'/><level id='3'/><level id='2'/><level id='5'/><level id='9'/><level id='11'/><level id='12'/><level id='13'/><level id='14'/><level id='15'/><level id='16'/><level id='17'/>
       </levels>
       </folder>
     <folder name="Audio">
       <levels>
-        <soundLevel id='18'/><soundLevel id='8'/><soundLevel id='6'/><soundLevel id='7'/><soundLevel id='10'/>
+        <soundLevel id='6'/><soundLevel id='7'/><soundLevel id='8'/><soundLevel id='10'/><soundLevel id='18'/>
       </levels>
       </folder>
     </levelSet>
@@ -687,7 +687,13 @@
             110 3 <level id='5'/>0004 0 
           </cell>
           <cell>
-            113 597 <level id='5'/>0003 0 
+            113 122 <level id='5'/>0003 0 
+          </cell>
+          <cell>
+            235 2 <level id='5'/>0005 -2 
+          </cell>
+          <cell>
+            237 473 <level id='5'/>0003 0 
           </cell>
           </cells>
         <fx>
@@ -2223,28 +2229,28 @@
     <fxnodes>
       <terminal>
         <fxnode>
-          <Toonz_columnFx id='31'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='20'/>
-        </fxnode>
-        <fxnode>
           <Toonz_columnFx id='24'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='33'/>
         </fxnode>
         <fxnode>
           <Toonz_columnFx id='22'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='26'/>
+          <Toonz_columnFx id='31'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='33'/>
         </fxnode>
         <fxnode>
           <Toonz_columnFx id='35'/>
         </fxnode>
         <fxnode>
           <Toonz_columnFx id='37'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='20'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='26'/>
         </fxnode>
         </terminal>
       <xsheet>
@@ -2317,6 +2323,7 @@
     "| #6   13 mar. 21   07:24               |"
     "| #7   15 mar. 21   07:49               |"
     "| #8   15 Mar 21   15:19                |"
-    "| #9   15 Mar 21   18:58                |"
+    "| #9   15 Mar 21   19:00                |"
+    "| #10  15 mar. 21   21:09               |"
   </history>
   </tnz>
