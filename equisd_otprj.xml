@@ -283,6 +283,9 @@
         <paintFill>
           0 
         </paintFill>
+        <alignBoundaryStrokesDirection>
+          0 
+        </alignBoundaryStrokesDirection>
         <naaSource>
           0 
         </naaSource>
@@ -315,6 +318,9 @@
         <paintFill>
           0 
         </paintFill>
+        <alignBoundaryStrokesDirection>
+          0 
+        </alignBoundaryStrokesDirection>
         </Outline>
       </vectorizerParameters>
     <bgColor>
